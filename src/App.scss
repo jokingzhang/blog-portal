@@ -1,0 +1,73 @@
+body, code, html, kbd, pre, samp, p {
+  font-family: "Press Start 2P";
+}
+.app {
+  padding: 50px 30px;
+
+  @media (max-width: 900px) {
+    padding: 30px 0;
+    font-size: 14px;
+  }
+
+  &-content {
+    position: relative;
+    max-width: 980px;
+    min-width: 500px;
+    margin: 0 auto;
+    width: 80%;
+
+    @media (max-width: 900px) {
+      max-width: auto;
+      min-width: auto;
+      width: calc(100% - 20px);
+    }
+  }
+  &-footer {
+    padding: 0 20px;
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+
+    p {
+      margin-bottom: 0.5rem;
+    }
+
+  }
+
+  .nes-container {
+    @media (max-width: 900px) {
+      padding: .5rem 1rem;
+    }
+  }
+  
+  .avatar-img {
+    top: 35px;
+    left: 5px;
+    @media (max-width: 375px) {
+      top: 115px;
+      left: 5px;
+    }
+  }
+  .avatar-content {
+    left: 40px;
+    top: -30px;
+    @media (max-width: 480px) {
+      left: 10px;
+      top: -40px;
+      width: 200px;
+    }
+    @media (max-width: 375px) {
+      left: 110px;
+      top: -110px;
+      width: 200px;
+    }
+  }
+}
+
+.t-wrapper {
+  margin-bottom: 20px;
+}
+
+
+

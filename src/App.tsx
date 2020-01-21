@@ -1,5 +1,5 @@
 import React from 'react';
-import './App.css';
+import './App.scss';
 
 const App: React.FC = () => {
   return (
@@ -23,14 +23,14 @@ const App: React.FC = () => {
               <i className="nes-icon github is-small"></i>  
               &nbsp;
               Github: 
-              <a href="https://github.com/jokingzhang" rel="github" target="_blank"> jokingzhang </a>
+              <a href="https://github.com/jokingzhang" rel="noopener noreferrer" target="_blank"> jokingzhang </a>
             </li>
             <li>
               掘金:
-              <a href="https://juejin.im/user/59534d5bf265da6c4602bb8d" rel="github" target="_blank"> joking_zhang </a></li>
+              <a href="https://juejin.im/user/59534d5bf265da6c4602bb8d" rel="noopener noreferrer" target="_blank"> joking_zhang </a></li>
             <li>
               segmentfault:
-              <a href="https://segmentfault.com/u/joking_zhang" rel="segmentfault" target="_blank"> joking_zhang </a></li>
+              <a href="https://segmentfault.com/u/joking_zhang" rel="noopener noreferrer" target="_blank"> joking_zhang </a></li>
             <li>Mail: 496691544@qq.com</li>
             <li>WeChat: joking_zhang</li>
           </ul>
@@ -42,7 +42,7 @@ const App: React.FC = () => {
             <p className="title">dantd</p>
             <p>
               基于 antd 组件进行二次封装的业务组件
-              <a href="/dantd" rel="segmentfault" target="_blank"> portal </a>
+              <a href="/dantd" rel="noopener noreferrer" target="_blank"> portal </a>
             </p>
           </div>
         </section>
@@ -51,9 +51,9 @@ const App: React.FC = () => {
         <div className="nes-container is-rounded is-dark">
           <p>Joking Zhang's Blog ©2020</p>
           <p>Power by 
-            <a href="https://nostalgic-css.github.io/NES.css/" rel="NES.css" target="_blank"> NES.css </a>
+            <a href="https://nostalgic-css.github.io/NES.css/" rel="noopener noreferrer" target="_blank"> NES.css </a>
             &
-            <a href="https://create-react-app.dev/" rel="create-react-app" target="_blank"> Create React App </a>
+            <a href="https://create-react-app.dev/" rel="noopener noreferrer" target="_blank"> Create React App </a>
           </p>
         </div>
       </div>
